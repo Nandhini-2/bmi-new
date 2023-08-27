@@ -31,8 +31,10 @@ function App() {
         setMessage('You are underweight')
       } else if (bmi >= 18.5 && bmi < 24.9) {
         setMessage('You are a healthy')
-      } else {
+      } else if (bmi >= 25 && 30){
         setMessage('You are overweight')
+      } else {
+        setMessage('Please Enter a valid Input')
       }
     
   }
