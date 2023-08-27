@@ -1,0 +1,55 @@
+body {
+  background-color: #F8F6F4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  
+}
+
+.wrapper {
+  border: 1px solid grey;
+  padding: 6%;
+  border-radius: 25px;
+  position: relative;
+  box-shadow: 0 2px 5px #ccc;
+  margin: 50px 0;
+}
+
+.heading {
+  text-align:center;
+  color:#0081C9;
+  
+}
+
+.para {
+  text-align: center;
+  color:#19A7CE;
+}
+
+.box{
+  text-align: center;
+  padding-top: 20px;
+}
+
+.btn {
+  text-align: center;
+  font-size: 20px;
+  padding: 4px;
+  color:black;
+  background-color: white;
+  border:1px solid grey;
+  border-radius: 7px;
+  
+}
+
+.calcbtn {
+  text-align: center;
+  
+  background-color: black;
+  font-size: 15px;
+  color: #F4F2DE;
+  padding: 15px;
+  border:1px solid grey;
+  border-radius: 20px;
+}
